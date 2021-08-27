@@ -1,0 +1,35 @@
+div.slides-container {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#slideshow {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+div#slideshow div.img {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ffffff;
+  border-color: transparent;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background 1300ms ease-in 900ms;
+  opacity: 1;
+}
+
+div.btn-container {
+  display: flex;
+  justify-content: center;
+}

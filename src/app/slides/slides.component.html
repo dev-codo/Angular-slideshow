@@ -1,0 +1,14 @@
+<div class="slides-container">
+  <div id="slideshow">
+    <div class="img" [style.background-image]="'url(' + dog0 + ')'"></div>
+    <div class="img" [style.background-image]="'url(' + dog1 + ')'"></div>
+    <div class="img" [style.background-image]="'url(' + dog2 + ')'"></div>
+    <div class="img" [style.background-image]="'url(' + dog3 + ')'"></div>
+  </div>
+
+</div>
+<hr />
+
+<div class="btn-container">
+  <custom-button [config]="config" (onStateChange)="onStateChanged($event)"></custom-button>
+</div>
